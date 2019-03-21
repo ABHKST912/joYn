@@ -1,0 +1,364 @@
+body{
+    margin: 0%;
+    padding: 0%;
+	color: #F8F2CA;
+	font-family: 'Raleway';
+}
+
+.header{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    box-shadow: 0 0 10px 1px #003324;
+	
+    
+}
+
+.first-block{
+	background-image: url(../images/koster_kemping_pustynia3.jpg);
+	height:650px;
+}
+
+#c {
+	z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.burger-button{
+	display: inline-flex;
+    height: 40px;
+    width: 40px;
+}
+
+.logo-text-header{
+	margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.top-header-menu{
+	list-style-type: none;
+	display: inline-flex;
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.log-in-icon-header{
+	height: 35px;
+	width: 35px;
+}
+
+.header-content{
+	margin-top: auto;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-main-text{
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;	
+	font-size: -webkit-xxx-large;
+	text-shadow:0 0 0.5em #983402 ;
+}
+
+.header-secondary-text{
+    font-size: x-large;
+}
+
+
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.block-description-text{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.features-block{
+	background-color: #FCFEE9;
+	padding-top: 5%;
+}
+
+.features{
+	display: flex;
+	color: black;
+	flex-direction: column;
+}
+
+.block-description-text h1{
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.features h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+}
+
+.features-element{
+	margin-top: 5%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+.features-element-text{
+	padding:  0 5%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+.features-element-img{
+	width: 50%;
+	height: 25%;
+}
+
+.events{
+	margin: 5%  0;
+	color:black;
+}
+
+.events-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.event-card{
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+	width: 33%;
+	box-sizing: border-box;
+	margin: 2px 15px;
+	height: 350px;
+}
+
+.event-card-img{
+	width: 100%;
+	height: 60%;
+}
+
+.event-card-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.event-card-date{
+	margin: 0;
+	padding: 0.5% 1%;
+	background-color: #FBFAFA;
+	border-radius: 15%;
+	width: fit-content;
+}
+
+.event-card-date p{
+	margin: 0;
+}
+
+.event-card-description{
+	width: 80%;
+	margin: 1% auto;
+}
+
+.event-card-description h4{
+	margin: 0;
+}
+
+.event-card-button{
+	border: black;
+	border-radius: 15px;
+	background-color: #F8A34A;
+	padding: 3% 5%;
+}
+
+.event-card-heart{
+	display: inline-block;
+	margin-left: 60%;
+}
+
+.trusted-by-block{
+	padding-top: 5%;
+	background-color: #F8A34A;
+	height: 400px;
+	color: black;
+}
+
+.trusted-by-block h3{
+	width: 80%;
+	text-align: center;
+}
+
+.trusted-by-content{
+	margin: 0 auto ;
+	width: 60%;
+}
+
+.trusted-by-buttons-group{
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.trusted-by-button{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	border: black;
+	background: black;
+	color: white;
+	padding: 2% 6%;
+	border-radius: 15px;
+}
+
+.feedbacks-block{
+	color: black;
+	margin: 5% 0;
+}
+
+.feedbacks-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feedbacks-description{
+	width: 40%;
+}
+
+.feedbacks-group{
+	margin-left: 8%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feedback-block{
+	justify-self: center;
+	margin: 10px 0;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.odd{
+	align-self: flex-start;
+}
+
+.feedback-img{
+	border-radius: 50%;
+	width: 20%;
+	height: 80%;
+}
+
+.feedback-text{
+	width: 80%;
+	margin: 0 10%;
+}
+
+.get-email-block{
+	background-color: #F8A34A;
+	color: black;
+	height: 300px;
+}
+
+.get-email{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.get-email-form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.get-email-input{
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+
+}
+
+.get-email-input::placeholder{
+	color: black;
+}
+
+.get-email-button{
+	padding: 2.5% 10%;
+    color: white;
+    background: black;
+    border: 1px;
+}
+
+.mission-block{
+	margin-top: 5%;
+	color: black;
+}
+
+.mission-images-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mission-images-odd{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mission-images-even{
+	width: 32%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mission-image-landscape{
+	width: 100%;
+	height: 50%;
+}
+
+.mission-image-portrait{
+	margin: 2.5% 0;
+	width: 70%;
+	height: 45%;
+}
+
+.mission-image-portrait-big{
+	margin: 2.5% 0;
+	width: 100%;
+	height: 70%;
+}
+
+#footer{
+	margin-top: 5%;
+	background: #F8A34A;
+	color: black;
+	height: 300px;
+}
