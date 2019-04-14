@@ -1,0 +1,25 @@
+{
+  "name": "joyn",
+  "version": "1.0.0",
+  "description": "our team project",
+  "main": "index.js",
+  "scripts": {
+    "test": "_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABHKST912/joYn.git"
+  },
+  "keywords": [
+    "joyn"
+  ],
+  "author": "Aizat&Bermet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABHKST912/joYn/issues"
+  },
+  "homepage": "https://github.com/ABHKST912/joYn#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

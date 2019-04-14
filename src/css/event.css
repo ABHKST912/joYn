@@ -1,0 +1,26 @@
+body, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #F8A34A;
+    color: #222;
+}
+
+.nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 900;
+    color: #222;
+}
+
+.search-box{
+    height: 50px;
+    border-bottom: 1px solid black;
+    background: lightgray;
+}
