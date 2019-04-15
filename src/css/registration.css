@@ -1,0 +1,45 @@
+/* layout/base.css */
+
+:root {
+    --htmlFontSize: 100%;
+  
+    --bodyBackgroundColor: #2c3338;
+    --bodyColor: white;
+    --bodyFontFamily: 'Open Sans';
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+    height: 100%;
+  }
+
+  a {
+      text-decoration: none;
+  }
+  
+  body {
+    background-color: var(--bodyBackgroundColor);
+    background-image: url("https://images.pexels.com/photos/207896/pexels-photo-207896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+  /*   url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    color: var(--bodyColor);
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    height: 100%;
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-height: 100vh;
+  }

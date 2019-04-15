@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../css/registr_start-hosting.css">
+    <link rel="stylesheet" href="../css/registr_buttons.css">
+    <link rel="stylesheet" href="../css/registration.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <!-- <form action="/action_page.php"> -->
+    <main class="signup-page">
+      <a href="/joYn/src/html/index.html"><h1 class="signup-title">Регистрация</h1></a>
+        
+      <form action="index.html" class="signup-form"> 
+<!--    <label for="title">Title</label>
+        <select id="title"> 
+          <option value="mr">Mr.</option>
+          <option value="ms">Ms.</option>
+        </select> -->
+        <label for="first-name">Имя</label>
+        <input type="text" id="first-name" value="" placeholder="Маргарита..">
+        <label for="last-name">Фамилия</label>
+        <input type="text" id="last-name" value="" placeholder="Васечкина..">
+        <label for="email">E-mail</label>
+        <input type="email" id="email">  <!--ПОДКЛЮЧИ JS НА class="invalid", THIS IS INVALID EITHER IN THE SERVER WHEN YOU RENDER THE PAGE OR THROUGH JS -->
+        <label for="password">Пароль</label>
+        <input type="password" id="password">
+        <div class="signup-form__checkbox">
+          <input type="checkbox" id="agree-terms">  <!-- МОЖНО КУДА ХОЧЕШЬ ДОБАВИТЬ class="invalid" -->
+          <label for="agree-terms">Принимаю условия 
+            <a href="#">...</a>
+          </label>
+        </div>
+        <button type="submit" class="button" disabled> <!--TO SWITCH THIS BUTTON from disabled to anabled, so to remove this disabled attribute, you need JS again. BECAUSE IT IS SOMETHING THAT NEEDS TO BE CHANGED DURING RUNTIME. -->
+          Зарегистрироваться
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
