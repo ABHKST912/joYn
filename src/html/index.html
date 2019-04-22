@@ -8,27 +8,59 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:800" rel="stylesheet">
     <link rel="stylesheet" href="../css/animation.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="first-block">
-            <div class="background">
-                <img class="background-img" src="../images/students-1807505_1920.jpg" alt="">
+        <div class="background">
+            <img class="background-img" src="../images/students-1807505_1920.jpg" alt="">
+        </div>
+        <nav id="navbar" class="navbar hidden navbar-expand-lg custom-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">JoYn</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="../images/iconfinder-icon-buger-menu.svg" class="navbar-toggler-icon">
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./event.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./categories.html">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Favorites</a>
+                        </li>
+                    </ul>
+    
+    
+                    <form class="form-inline" method="get" action="">
+                        <input name="search" class="form-control mr-sm-2 font-weight-bold" type="search" placeholder="Search">
+                        <button class="btn btn-outline-warning my-2 my-sm-0 font-weight-bold mr-5" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item dropdown">
+                        <img src="../images/iconfinder-icon.svg" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Register</a>
+                          <a class="dropdown-item" href="#">Log in</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">My events</a>
+                        </div>
+                      </li>
+                </div>
             </div>
-        <header id="navbar"  class="header navbar hidden">
-            <img src="../images/iconfinder-icon-buger-menu.svg" class="burger-button">
-            <h2 class="logo-text-header">JoYn</h2>
-            <ul>
-                <li class="top-header-menu">HOME</li>
-                <li class="top-header-menu">ABOUT US</li>
-                <li class="top-header-menu"><a href="./event.html">EVENTS</a></li>
-            </ul>
-            <img src="../images/iconfinder-icon.svg" class="log-in-icon-header">
-        </header>
+        </nav>  
         <div class="header-content">
                 <h1 class="header-main-text neon ">JoYn</h1>
                 <h6 class="header-secondary-text">Committed to helping you achieve new heights</h6>
-                <h2 class="btn btn-primary btn-no-border" href="#">CREATE</h2>
+                <h2 class="btn" href="#">CREATE</h2>
         </div>
     </div>
     <main>

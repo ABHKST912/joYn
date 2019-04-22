@@ -9,15 +9,28 @@ html {
 h1 { font-size: 2rem }
 
 body{
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 	color: #F8F2CA;
 	font-family: 'Raleway';
+	border-bottom: 1px solid transparent;
 }
 
-a{
+.nav-link{
+	font-size: 18px;
 	text-decoration: none;
 	color: #F8F2CA;	
+}
+
+.nav-link:hover{
+	border-bottom: 1px solid #F8F2CA;
+	color: #F8F2CA;
+}
+
+.navbar-brand{
+	font-size: 30px;
+	color: #F8F2CA;
+	font-weight: bold;
 }
 
 .header{
