@@ -17,9 +17,9 @@ body{
 }
 
 .nav-link{
-	font-size: 18px;
 	text-decoration: none;
 	color: #F8F2CA;	
+	border-bottom: 1px solid transparent;
 }
 
 .nav-link:hover{
@@ -28,7 +28,6 @@ body{
 }
 
 .navbar-brand{
-	font-size: 30px;
 	color: #F8F2CA;
 	font-weight: bold;
 }
@@ -90,6 +89,14 @@ body{
 	margin: 0;
     font-size: 35px;
     font-weight: bold;
+}
+
+.dropdown-li{
+	list-style-type: none;
+}
+
+.dropdown-li > img{
+	border-bottom: 1px solid transparent;
 }
 
 .top-header-menu{
@@ -165,19 +172,6 @@ body{
 }
 
 
-.features-element-text{
-	padding:  0 5%;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	width: 50%;
-}
-
-.features-element-img{
-	width: 50%;
-	height: 25%;
-}
 
 .events{
 	margin: 5%  0;
